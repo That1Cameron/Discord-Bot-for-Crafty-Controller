@@ -1,13 +1,8 @@
 import discord
 from discord.ext import commands
-from dotenv import load_dotenv
-import os
-import requests
-import ast
-import urllib3
 from mc import *
+import ast
 # this is a small discord bot for managing a minecraft server running on crafty controller
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 load_dotenv()
 
