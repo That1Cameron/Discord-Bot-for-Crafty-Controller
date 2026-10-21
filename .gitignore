@@ -1,0 +1,6 @@
+# Ignore all environment variable files
+.env
+*.env
+*.env.local
+.idea/
+__pycache__/
